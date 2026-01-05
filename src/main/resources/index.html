@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Container principal -->
+<div class="container">
+    <h1>📝 Minhas Tarefas</h1>
+
+    <!-- Seção de adicionar tarefa -->
+    <div class="input-section">
+        <!-- Campo onde o usuário digita a nova tarefa -->
+        <input
+                type="text"
+                id="taskInput"
+                placeholder="Digite uma nova tarefa..."
+                onkeypress="handleKeyPress(event)">
+        <!-- Botão para adicionar -->
+        <button class="btn-add" onclick="addTask()">Adicionar</button>
+    </div>
+
+    <!-- Lista onde as tarefas vão aparecer -->
+    <ul class="task-list" id="taskList">
+        <!-- As tarefas vão aparecer aqui dinamicamente -->
+    </ul>
+</div>
+
+<!-- Link para o arquivo JavaScript -->
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+/* Reset básico e configuração da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Define a fonte, cor de fundo e espaçamento */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container principal que envolve tudo */
+.container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Estilo do título */
+h1 {
+    color: #667eea;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+/* Área onde adiciona nova tarefa */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* Campo de texto onde digita a tarefa */
+input[type="text"] {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+/* Quando o usuário clica no input, muda a cor da borda */
+input[type="text"]:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Estilo do botão de adicionar */
+.btn-add {
+    padding: 15px 30px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Efeito quando passa o mouse sobre o botão */
+.btn-add:hover {
+    background: #5568d3;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* Lista onde ficam todas as tarefas */
+.task-list {
+    list-style: none;
+}
+
+/* Cada tarefa individual */
+.task-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s;
+    /* Animação quando a tarefa aparece */
+    animation: slideIn 0.3s ease;
+}
+
+/* Animação de entrada das tarefas */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Efeito quando passa o mouse sobre a tarefa */
+.task-item:hover {
+    background: #e9ecef;
+    transform: translateX(5px);
+}
+
+/* Checkbox customizado */
+.task-checkbox {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Texto da tarefa */
+.task-text {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Quando a tarefa está concluída, risca o texto */
+.task-item.completed .task-text {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Botão de deletar */
+.btn-delete {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Efeito quando passa o mouse sobre o botão deletar */
+.btn-delete:hover {
+    background: #ff5252;
+    transform: scale(1.1);
+}
+
+/* Mensagem quando não tem tarefas */
+.empty-message {
+    text-align: center;
+    color: #999;
+    padding: 40px;
+    font-style: italic;
+}
