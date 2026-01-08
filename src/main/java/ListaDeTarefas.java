@@ -1,13 +1,11 @@
-// Importa a classe ArrayList para criar listas dinâmicas
-import java.util.ArrayList;
-// Importa a classe Scanner para ler dados do teclado
-import java.util.Scanner;
+import java.util.ArrayList; // Importa a classe ArrayList para criar listas dinâmicas
+import java.util.Scanner;  // Importa a classe Scanner para ler dados do teclado
 
 public class ListaDeTarefas {
     // Método principal onde o programa inicia
     public static void main(String[] args) {
-        // Cria uma lista para guardar o texto das tarefas
-        ArrayList<String> tarefas = new ArrayList<>();
+        ArrayList<String> tarefas = new ArrayList<>(); // Cria uma lista para guardar o texto das tarefas
+
         // Cria uma lista para guardar se a tarefa está concluída (true) ou não (false)
         ArrayList<Boolean> concluidas = new ArrayList<>();
         // Cria um objeto Scanner para ler o que o usuário digitar
