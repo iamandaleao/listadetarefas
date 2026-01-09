@@ -1,15 +1,16 @@
 # 📝 Sistema de Lista de Tarefas
 
-> Aplicação web full stack para gerenciamento de tarefas, desenvolvida como projeto de estudo durante minha jornada para me tornar desenvolvedora backend e frontend.
+> Aplicação web full stack para gerenciamento de tarefas, desenvolvida como projeto de estudo ao longo da minha jornada em desenvolvimento de software. O sistema conta com uma interface moderna e interativa e demonstra a aplicação dos principais fundamentos de programação no backend e no frontend, com código limpo, bem estruturado e comentado com foco didático.
+
+<div align="center">
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 🎯 Sobre o Projeto
+</div>
 
-Sistema completo de gerenciamento de tarefas com interface moderna e interativa. O projeto demonstra domínio dos fundamentos de programação tanto no backend quanto no frontend, com código limpo, bem estruturado e totalmente comentado para fins didáticos.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -131,13 +132,19 @@ Durante o desenvolvimento deste projeto, aprofundei meus conhecimentos em:
 
 ## 👩‍💻 Autora
 
-Desenvolvido com 💚 por Amanda Leão
+Desenvolvido com 💚 por **Amanda Leão**  
+Estudante de Desenvolvimento Full Stack  
 
-Estudante de Desenvolvimento Backend e Frontend
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamandaleao/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iamandaleao)
+
+</div>
 
 ---
 
-⭐ Se você gostou deste projeto, considere dar uma estrela!
+<div align="center">
+
+⭐ **Se você gostou deste projeto, considere deixar uma estrela!** ⭐
+
+</div>
