@@ -3,7 +3,10 @@ import java.util.Scanner;
 
 public class ListaDeTarefas {
   public static void main(String[] args) {
-    ArrayList<String> tarefas = new ArrayList<>();
+    ArrayList<String> tarefas = new ArrayList<>(); 
+    ArrayList<Boolean> concluidas = new ArrayList<>();
+
+
 
   }
 }
