@@ -23,7 +23,8 @@ public class ListaDeTarefas {
         System.out.println("Digite a tarefa: ");
         String tarefa = scanner.nextLine();
         tarefas.add(tarefa);
-        
+        concluidas.add(false);
+        System.out.println("Tarefa adicionada!");
       }
 
   }
