@@ -25,12 +25,33 @@ public class ListaDeTarefas {
         tarefas.add(tarefa);
         concluidas.add(false);
         System.out.println("Tarefa adicionada!");
+
       } else if (opcao == 2) {
+          if (tarefas.isEmpty()) {
+            System.out.println("Nenhuma tarefa cadastrada.");
+        } else {
+            System.out.println("\n--- Suas Tarefas ---");
+            for (int i = 0; i < tarefas.size(); i++) {
+                String status = concluidas.get(i) ? "[✓]" : "[ ]";
+                System.out.println((i + 1) + ". " + status + " " + tarefas.get(i));
+          }
+        }
+
+      } else if (opcao == 3) {
         if (tarefas.isEmpty()) {
-          
+          System.out.println("Nenhuma tarefa para marcar.");
+        } else {
+          System.out.print("Número da tarefa para marcar: ");
+          int numero = scanner.nextInt();
+          if (numero > 0 && numero <- tarefas.size()) {
+            concluidas.set(numero - 1, true);
+            System.out.println("Tarefa marcada como concluída!");
+          } else {
+            System.out.println("Número inválido.");
+          }
         }
       }
-
+  
 
   }
 }
