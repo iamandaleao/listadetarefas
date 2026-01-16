@@ -25,7 +25,12 @@ public class ListaDeTarefas {
         tarefas.add(tarefa);
         concluidas.add(false);
         System.out.println("Tarefa adicionada!");
+      } else if (opcao == 2) {
+        if (tarefas.isEmpty()) {
+          
+        }
       }
+
 
   }
 }
